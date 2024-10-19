@@ -54,7 +54,6 @@ LV_IMG_DECLARE(hammerbeam28);
 LV_IMG_DECLARE(hammerbeam29);
 LV_IMG_DECLARE(hammerbeam30);
 
-
 const lv_img_dsc_t *anim_imgs[] = {
     &hammerbeam1,
     &hammerbeam2,
@@ -176,7 +175,7 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
     lv_obj_t *top = lv_canvas_create(widget->obj);
     lv_obj_align(top, LV_ALIGN_TOP_RIGHT, 0, 0);
     lv_canvas_set_buffer(top, widget->cbuf, CANVAS_SIZE, CANVAS_SIZE, LV_IMG_CF_TRUE_COLOR);
-    
+
     lv_obj_t * art = lv_animimg_create(widget->obj);
     lv_obj_center(art);
     lv_animimg_set_src(art, (const void **) anim_imgs, 30);
