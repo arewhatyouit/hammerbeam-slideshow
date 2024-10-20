@@ -24,7 +24,7 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 #include "peripheral_status.h"
 
 //LV_IMG_DECLARE(hammerbeam1);
-LV_IMG_DECLARE(hammerbeam2);
+// LV_IMG_DECLARE(hammerbeam2);
 LV_IMG_DECLARE(hammerbeam3);
 LV_IMG_DECLARE(hammerbeam4);
 LV_IMG_DECLARE(hammerbeam5);
@@ -56,7 +56,7 @@ LV_IMG_DECLARE(hammerbeam25);
 
 const lv_img_dsc_t *anim_imgs[] = {
 //    &hammerbeam1,
-    &hammerbeam2,
+//    &hammerbeam2,
     &hammerbeam3,
     &hammerbeam4,
     &hammerbeam5,
