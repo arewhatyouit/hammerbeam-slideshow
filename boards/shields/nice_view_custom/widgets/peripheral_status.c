@@ -43,8 +43,8 @@ LV_IMG_DECLARE(hammerbeam15);
 LV_IMG_DECLARE(hammerbeam18);
 //LV_IMG_DECLARE(hammerbeam19);
 //LV_IMG_DECLARE(hammerbeam20);
-//LV_IMG_DECLARE(hammerbeam21);
-LV_IMG_DECLARE(hammerbeam22);
+LV_IMG_DECLARE(hammerbeam21);
+//LV_IMG_DECLARE(hammerbeam22);
 //LV_IMG_DECLARE(hammerbeam23);
 //LV_IMG_DECLARE(hammerbeam24);
 LV_IMG_DECLARE(hammerbeam25);
@@ -75,8 +75,8 @@ const lv_img_dsc_t *anim_imgs[] = {
     &hammerbeam18,
 //    &hammerbeam19,
 //    &hammerbeam20,
-//    &hammerbeam21,
-    &hammerbeam22,
+    &hammerbeam21,
+//    &hammerbeam22,
 //    &hammerbeam23,
 //    &hammerbeam24,
     &hammerbeam25,
